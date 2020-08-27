@@ -1,0 +1,19 @@
+.button-wrapper {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #172227;
+  color: #9b9999;
+  cursor: pointer;
+  font-weight: 600;
+  flex: 1;
+  outline: 1px solid #888888;
+}
+
+.operator {
+  background-image: linear-gradient(to right, #a0c89f, #547c54);
+  color: #ffffff;
+}
