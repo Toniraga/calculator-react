@@ -13,7 +13,23 @@
   outline: 1px solid #888888;
 }
 
+.button-wrapper:hover {
+  background-color: #27373f;
+}
+
+.button-wrapper:active {
+  background-color: #172227;
+}
+
 .operator {
   background-image: linear-gradient(to right, #a0c89f, #547c54);
   color: #ffffff;
+}
+
+.operator:hover {
+  background: linear-gradient(to right, #4c744c, #a0b39d);
+}
+
+.operator:active {
+  background-image: linear-gradient(to right, #a0c89f, #547c54);
 }

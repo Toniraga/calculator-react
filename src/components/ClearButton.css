@@ -11,3 +11,11 @@
   flex: 1;
   outline: 1px solid #888888;
 }
+
+.clear-btn:hover {
+  background-color: #b3afc4;
+}
+
+.clear-btn:active {
+  background-color: #64616e;
+}

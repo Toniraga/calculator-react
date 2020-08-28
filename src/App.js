@@ -13,7 +13,13 @@ const App = () => {
 	};
 
 	const handleEqual = () => {
-		setInput(math.evaluate(input));
+    if (input.split('+').length === 2 ||
+        input.split('/').length === 2 ||
+        input.split('-').length === 2 ||
+        input.split('*').length === 2) {
+          setInput(math.evaluate(input));
+        }
+    else return
 	};
 
   return (
